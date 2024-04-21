@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const generateUID = require('./utils/generateUID');
 const cors = require('cors');
 const Users = require('./models/users'); // Adjust the path as needed based on your project structure
-mongoose.connect('mongodb+srv://ahnaf:digital@os.0ukkmac.mongodb.net/?retryWrites=true&w=majority&appName=os');
+mongoose.connect('mongodb');
 const nodemailer = require('nodemailer');
 const bcrypt = require('bcrypt');
 const UserProjects = require('./models/userprojects');

@@ -1,7 +1,7 @@
 //db.js
 
 const { MongoClient } = require('mongodb');
-const uri = 'mongodb+srv://ahnaf:digital@os.0ukkmac.mongodb.net/?retryWrites=true&w=majority&appName=os'; // MongoDB connection URI
+const uri = 'mongodb'; // MongoDB connection URI
 const client = new MongoClient(uri);
 
 async function connect() {
